@@ -17,29 +17,12 @@ import datetime
 
 
 ##########Configuration#######################
-class mysql_CH_read(object):
-	# 
-	host = 'rdsshj1fvzlh92268305.mysql.rds.aliyuncs.com'
-	user = 'erafxcdb'
-	passwd = 'EraFxcdbSdfxTz'
-	db = 'fxcdb'
-    
-class mysql_CH(object):
-	# 
-	host = 'rdsshj1fvzlh92268305.mysql.rds.aliyuncs.com'
-	user = 'erafxcdb'
-	passwd = 'EraFxcdbSdfxTz'
-	db = 'fxcdb'
+
  
  
 cfg = { "dataSource": {
             "mysql": {
-                "mysql_CH_read": {
-                    "host": mysql_CH_read.host,
-                    "user": mysql_CH_read.user,
-                    "passwd": mysql_CH_read.passwd,
-                    "db": mysql_CH_read.db
-                }
+              
             }
         },
         "data": {
