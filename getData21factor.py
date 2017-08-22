@@ -11,16 +11,9 @@ cfg = {
     "dataSource": {
         "mysql": {
             "mysql_sdfx": {
-                "host": mysql_sdfx.host,
-                "user": mysql_sdfx.user,
-                "passwd": mysql_sdfx.passwd,
-                "db": mysql_sdfx.db
+              
             },
             "mysql_fxcdb": {
-                "host": mysql_CH.host,
-                "user": mysql_CH.user,
-                "passwd": mysql_CH.passwd,
-                "db": mysql_CH.db
             }
         }
     },
